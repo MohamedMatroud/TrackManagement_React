@@ -1,0 +1,151 @@
+{
+  "common": {
+    "productName": "Trackline",
+    "language": "العربية",
+    "lightMode": "Use light theme",
+    "darkMode": "Use dark theme",
+    "genericError": "Something went wrong. Please try again.",
+    "cancel": "Cancel",
+    "retry": "Try again",
+    "clearFilters": "Clear filters",
+    "backToTracks": "Back to tracks"
+  },
+  "auth": {
+    "eyebrow": "MUSIC OPERATIONS, IN SYNC",
+    "headline": "Every release, moving in rhythm.",
+    "description": "Run your catalog from first draft to every destination with one focused workspace for artists, tracks, and distribution.",
+    "artists": "artists seeded",
+    "tracks": "tracks ready",
+    "destinations": "destinations",
+    "welcome": "Welcome back",
+    "subtitle": "Sign in to enter your distribution control room.",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "requiredUsername": "Username is required",
+    "requiredPassword": "Password is required",
+    "signIn": "Sign in to Trackline",
+    "success": "Welcome back. Your catalog is ready.",
+    "secure": "Protected with a time-limited access token"
+  },
+  "nav": {
+    "tracks": "Track catalog",
+    "workspace": "Music operations",
+    "operations": "Operations",
+    "admin": "Catalog admin",
+    "sessionActive": "Secure session active",
+    "signOut": "Sign out",
+    "openMenu": "Open navigation"
+  },
+  "errors": {
+    "network": "The API could not be reached. Make sure the backend service is running.",
+    "notFound": "The page you requested could not be found.",
+    "trackNotFound": "This track could not be found.",
+    "loadTracks": "The catalog could not be loaded",
+    "loadTrack": "The track details could not be loaded"
+  },
+  "status": {
+    "DRAFT": "Draft",
+    "SUBMITTED": "Submitted",
+    "DISTRIBUTED": "Distributed",
+    "PENDING": "Pending",
+    "LIVE": "Live",
+    "REJECTED": "Rejected",
+    "ARCHIVED": "Archived"
+  },
+  "tracks": {
+    "eyebrow": "CATALOG CONTROL",
+    "title": "Track catalog",
+    "subtitle": "Search, review, and move every release through its distribution workflow.",
+    "overview": "Catalog overview",
+    "createTitle": "Create a new track",
+    "createSubtitle": "Add the release metadata. Every new track starts safely as a draft.",
+    "createAction": "New track",
+    "createSuccess": "Track created successfully.",
+    "openingCreated": "Opening your new track.",
+    "openTrack": "Open {{title}}",
+    "empty": "No tracks match the current view.",
+    "paginationTotal": "{{total}} tracks",
+    "draftNoteTitle": "Draft-first workflow",
+    "draftNote": "The API creates this track as Draft. You can submit and distribute it from the detail view.",
+    "metrics": {
+      "catalog": "Tracks in catalog",
+      "visible": "Showing now",
+      "assignments": "DSP assignments"
+    },
+    "columns": {
+      "track": "Track",
+      "artist": "Artist",
+      "genre": "Genre",
+      "release": "Release date",
+      "status": "Status",
+      "dsps": "DSPs"
+    },
+    "filters": {
+      "search": "Search title, ISRC, or artist",
+      "status": "All statuses",
+      "artist": "All artists",
+      "genre": "Filter by genre"
+    },
+    "fields": {
+      "title": "Track title",
+      "artist": "Artist",
+      "isrc": "ISRC",
+      "album": "Album",
+      "genre": "Genre",
+      "duration": "Duration in seconds",
+      "releaseDate": "Release date"
+    },
+    "placeholders": {
+      "title": "e.g. Desert Lights",
+      "artist": "Select an artist",
+      "album": "Optional album",
+      "genre": "e.g. Electronic",
+      "duration": "e.g. 180"
+    },
+    "hints": {
+      "isrc": "12 characters: 2 letters, 3 registrant characters, and 7 digits."
+    },
+    "validation": {
+      "titleRequired": "Track title is required",
+      "titleMax": "Track title cannot exceed 200 characters",
+      "artistRequired": "Select an artist",
+      "isrcRequired": "ISRC is required",
+      "isrcInvalid": "Enter a valid 12-character ISRC",
+      "durationRequired": "Duration is required",
+      "durationPositive": "Duration must be greater than zero",
+      "releaseRequired": "Release date is required"
+    }
+  },
+  "detail": {
+    "eyebrow": "TRACK WORKSPACE",
+    "moveTo": "Move to {{status}}",
+    "addDestinations": "Add destinations",
+    "statusConfirmTitle": "Advance this release?",
+    "statusConfirmBody": "The track will move to {{status}}. Status transitions cannot be reversed.",
+    "statusConfirmAction": "Advance status",
+    "statusSuccess": "Track status updated.",
+    "releaseWorkflow": "Release workflow",
+    "workflowHint": "Advance one stage at a time. DSP assignment becomes available after the track reaches Distributed.",
+    "trackInformation": "Track information",
+    "distributionTitle": "Distribution destinations",
+    "distributionSubtitle": "See where this track was submitted and the status reported for each destination.",
+    "destinationCount_one": "{{count}} destination",
+    "destinationCount_other": "{{count}} destinations",
+    "noDistributions": "This track has not been assigned to any DSP yet.",
+    "distributionModalTitle": "Distribute this track",
+    "distributionModalSubtitle": "Choose one or more destinations. Existing assignments are excluded automatically.",
+    "distributionModalAction": "Submit to DSPs",
+    "chooseDestinations": "Destinations",
+    "chooseDestinationPlaceholder": "Select DSPs",
+    "chooseDestinationError": "Select at least one DSP",
+    "distributionSuccess_one": "Submitted to {{count}} new destination.",
+    "distributionSuccess_other": "Submitted to {{count}} new destinations.",
+    "columns": {
+      "destination": "Destination",
+      "submitted": "Submitted at",
+      "status": "Status"
+    }
+  }
+}

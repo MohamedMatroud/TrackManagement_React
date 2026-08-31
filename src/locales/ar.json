@@ -1,0 +1,159 @@
+{
+  "common": {
+    "productName": "تراك لاين",
+    "language": "English",
+    "lightMode": "استخدام المظهر الفاتح",
+    "darkMode": "استخدام المظهر الداكن",
+    "genericError": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "cancel": "إلغاء",
+    "retry": "إعادة المحاولة",
+    "clearFilters": "مسح عوامل التصفية",
+    "backToTracks": "العودة إلى المقاطع"
+  },
+  "auth": {
+    "eyebrow": "عمليات موسيقية متناغمة",
+    "headline": "كل إصدار يتحرك بإيقاع واحد.",
+    "description": "أدر الكتالوج من المسودة الأولى إلى كل منصة من خلال مساحة عمل مركزة للفنانين والمقاطع والتوزيع.",
+    "artists": "فنانين مضافين",
+    "tracks": "مقاطع جاهزة",
+    "destinations": "منصات توزيع",
+    "welcome": "مرحباً بعودتك",
+    "subtitle": "سجّل الدخول إلى مركز التحكم في التوزيع.",
+    "username": "اسم المستخدم",
+    "usernamePlaceholder": "أدخل اسم المستخدم",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "requiredUsername": "اسم المستخدم مطلوب",
+    "requiredPassword": "كلمة المرور مطلوبة",
+    "signIn": "تسجيل الدخول إلى تراك لاين",
+    "success": "مرحباً بعودتك. الكتالوج جاهز.",
+    "secure": "محمي برمز وصول محدد المدة"
+  },
+  "nav": {
+    "tracks": "كتالوج المقاطع",
+    "workspace": "عمليات الموسيقى",
+    "operations": "العمليات",
+    "admin": "مسؤول الكتالوج",
+    "sessionActive": "جلسة آمنة ونشطة",
+    "signOut": "تسجيل الخروج",
+    "openMenu": "فتح قائمة التنقل"
+  },
+  "errors": {
+    "network": "تعذر الاتصال بواجهة API. تأكد من تشغيل خدمة الخلفية.",
+    "notFound": "تعذر العثور على الصفحة المطلوبة.",
+    "trackNotFound": "تعذر العثور على هذا المقطع.",
+    "loadTracks": "تعذر تحميل الكتالوج",
+    "loadTrack": "تعذر تحميل تفاصيل المقطع"
+  },
+  "status": {
+    "DRAFT": "مسودة",
+    "SUBMITTED": "تم الإرسال",
+    "DISTRIBUTED": "تم التوزيع",
+    "PENDING": "قيد الانتظار",
+    "LIVE": "مباشر",
+    "REJECTED": "مرفوض",
+    "ARCHIVED": "مؤرشف"
+  },
+  "tracks": {
+    "eyebrow": "التحكم في الكتالوج",
+    "title": "كتالوج المقاطع",
+    "subtitle": "ابحث وراجع وانقل كل إصدار عبر مراحل التوزيع.",
+    "overview": "نظرة عامة على الكتالوج",
+    "createTitle": "إنشاء مقطع جديد",
+    "createSubtitle": "أضف بيانات الإصدار. يبدأ كل مقطع جديد كمسودة آمنة.",
+    "createAction": "مقطع جديد",
+    "createSuccess": "تم إنشاء المقطع بنجاح.",
+    "openingCreated": "جارٍ فتح المقطع الجديد.",
+    "openTrack": "فتح {{title}}",
+    "empty": "لا توجد مقاطع تطابق العرض الحالي.",
+    "paginationTotal": "{{total}} مقطع",
+    "draftNoteTitle": "سير عمل يبدأ بالمسودة",
+    "draftNote": "تنشئ الواجهة هذا المقطع كمسودة. يمكنك إرساله وتوزيعه من صفحة التفاصيل.",
+    "metrics": {
+      "catalog": "المقاطع في الكتالوج",
+      "visible": "المعروض الآن",
+      "assignments": "تعيينات المنصات"
+    },
+    "columns": {
+      "track": "المقطع",
+      "artist": "الفنان",
+      "genre": "النوع",
+      "release": "تاريخ الإصدار",
+      "status": "الحالة",
+      "dsps": "المنصات"
+    },
+    "filters": {
+      "search": "البحث بالعنوان أو ISRC أو الفنان",
+      "status": "كل الحالات",
+      "artist": "كل الفنانين",
+      "genre": "التصفية حسب النوع"
+    },
+    "fields": {
+      "title": "عنوان المقطع",
+      "artist": "الفنان",
+      "isrc": "رمز ISRC",
+      "album": "الألبوم",
+      "genre": "النوع",
+      "duration": "المدة بالثواني",
+      "releaseDate": "تاريخ الإصدار"
+    },
+    "placeholders": {
+      "title": "مثال: أضواء الصحراء",
+      "artist": "اختر فناناً",
+      "album": "ألبوم اختياري",
+      "genre": "مثال: إلكتروني",
+      "duration": "مثال: 180"
+    },
+    "hints": {
+      "isrc": "12 رمزاً: حرفان و3 رموز للجهة المسجلة و7 أرقام."
+    },
+    "validation": {
+      "titleRequired": "عنوان المقطع مطلوب",
+      "titleMax": "لا يمكن أن يتجاوز العنوان 200 حرف",
+      "artistRequired": "اختر فناناً",
+      "isrcRequired": "رمز ISRC مطلوب",
+      "isrcInvalid": "أدخل رمز ISRC صالحاً من 12 رمزاً",
+      "durationRequired": "المدة مطلوبة",
+      "durationPositive": "يجب أن تكون المدة أكبر من صفر",
+      "releaseRequired": "تاريخ الإصدار مطلوب"
+    }
+  },
+  "detail": {
+    "eyebrow": "مساحة عمل المقطع",
+    "moveTo": "النقل إلى {{status}}",
+    "addDestinations": "إضافة منصات",
+    "statusConfirmTitle": "هل تريد تقدم هذا الإصدار؟",
+    "statusConfirmBody": "سينتقل المقطع إلى حالة {{status}}. لا يمكن عكس انتقالات الحالة.",
+    "statusConfirmAction": "تقدم الحالة",
+    "statusSuccess": "تم تحديث حالة المقطع.",
+    "releaseWorkflow": "سير عمل الإصدار",
+    "workflowHint": "تقدم مرحلة واحدة في كل مرة. يتاح تعيين المنصات بعد وصول المقطع إلى حالة تم التوزيع.",
+    "trackInformation": "معلومات المقطع",
+    "distributionTitle": "منصات التوزيع",
+    "distributionSubtitle": "تعرف على المنصات التي أُرسل إليها المقطع وحالة كل منها.",
+    "destinationCount_zero": "لا توجد منصات",
+    "destinationCount_one": "منصة واحدة",
+    "destinationCount_two": "منصتان",
+    "destinationCount_few": "{{count}} منصات",
+    "destinationCount_many": "{{count}} منصة",
+    "destinationCount_other": "{{count}} منصة",
+    "noDistributions": "لم يتم تعيين هذا المقطع لأي منصة بعد.",
+    "distributionModalTitle": "توزيع هذا المقطع",
+    "distributionModalSubtitle": "اختر منصة أو أكثر. تُستبعد التعيينات الحالية تلقائياً.",
+    "distributionModalAction": "إرسال إلى المنصات",
+    "chooseDestinations": "المنصات",
+    "chooseDestinationPlaceholder": "اختر منصات التوزيع",
+    "chooseDestinationError": "اختر منصة واحدة على الأقل",
+    "distributionSuccess_zero": "لم تتم إضافة تعيينات جديدة.",
+    "distributionSuccess_one": "تم الإرسال إلى منصة جديدة واحدة.",
+    "distributionSuccess_two": "تم الإرسال إلى منصتين جديدتين.",
+    "distributionSuccess_few": "تم الإرسال إلى {{count}} منصات جديدة.",
+    "distributionSuccess_many": "تم الإرسال إلى {{count}} منصة جديدة.",
+    "distributionSuccess_other": "تم الإرسال إلى {{count}} منصة جديدة.",
+    "columns": {
+      "destination": "المنصة",
+      "submitted": "وقت الإرسال",
+      "status": "الحالة"
+    }
+  }
+}
