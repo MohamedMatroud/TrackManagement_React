@@ -25,3 +25,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local assignment source document
+FullStack_ Developer_(.net_Angular_React).pdf
