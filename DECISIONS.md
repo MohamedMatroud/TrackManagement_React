@@ -2,7 +2,7 @@
 
 ## What AI generated and what I reviewed
 
-AI assistance was used to scaffold the React and TypeScript application, propose the feature-module boundaries, build the Axios clients, generate the first versions of the Ant Design screens, prepare localization resources, and draft automated tests and documentation.
+AI assistance was used to scaffold the React and TypeScript application, propose the feature-module boundaries, build the Axios clients, generate the first versions of the Ant Design screens, prepare localization resources, and draft documentation.
 
 I reviewed the assignment and the live Swagger contract, narrowed the UI to the workflows that are valuable for the evaluation, verified every request and response type against the running API, and adjusted the interaction model, validation, responsive behavior, theme tokens, English/Arabic copy, and test scenarios. The final UI deliberately avoids building CRUD screens for every backend entity.
 

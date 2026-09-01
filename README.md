@@ -23,7 +23,6 @@ Artist administration, DSP administration, distribution administration, and trac
 - Axios with inherited per-domain API clients
 - React Router
 - i18next/react-i18next with JSON dictionaries
-- Vitest, Testing Library, and MSW
 
 No TanStack Query or other server-state library is used. Cancellable React hooks own loading, error, refresh, and mutation state.
 
@@ -85,8 +84,6 @@ npm run dev          # Local Vite server
 npm run build        # Type-check and production build
 npm run preview      # Preview the production build
 npm run lint         # Oxc lint checks
-npm run test:run     # Run the test suite once
-npm run test         # Vitest watch mode
 ```
 
 ## Architecture
@@ -104,7 +101,6 @@ src/
     lookups/           Status lookup types and LookupClient
   locales/             en.json and ar.json UI resources
   shared/              Reusable components, routing, hooks, and formatters
-  test/                MSW server and browser-test setup
 ```
 
 `AuthClient`, `TrackClient`, `ArtistClient`, `DspClient`, and `LookupClient` each inherit `HttpClient`. The base client attaches the current JWT and `Accept-Language`, unwraps the API's `ApiResponse<T>` envelope, and emits normalized errors. A 401 from a protected endpoint clears the session; the login endpoint is excluded so incorrect credentials can be displayed normally.
@@ -113,20 +109,9 @@ The token store intentionally contains only `accessToken` and `expiresAtUtc`. Se
 
 ## Verification
 
-The automated suite covers:
-
-- Protected routing and login redirection.
-- Catalog loading with mocked API responses.
-- English/Arabic switching and document direction.
-- Persisted theme selection.
-- JWT and locale request headers.
-- API envelope errors and session expiry.
-- Localized names and duration formatting.
-
-Run all quality gates with:
+Run the available quality gates with:
 
 ```powershell
 npm run lint
-npm run test:run
 npm run build
 ```
