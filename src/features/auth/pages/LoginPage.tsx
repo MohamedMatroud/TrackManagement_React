@@ -77,7 +77,7 @@ export function LoginPage() {
               <Text type="secondary">{t('auth.subtitle')}</Text>
             </Space>
 
-            <Form<LoginRequest> layout="vertical" requiredMark={false} onFinish={onFinish}>
+            <Form<LoginRequest> layout="vertical" onFinish={onFinish}>
               <Form.Item
                 name="username"
                 label={t('auth.username')}
