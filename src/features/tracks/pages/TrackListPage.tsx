@@ -110,11 +110,12 @@ export function TrackListPage() {
     {
       title: t('tracks.columns.track'),
       key: 'track',
+      width: 420,
       render: (_, track) => (
         <div className="track-cell">
           <span className="track-icon"><SoundOutlined /></span>
           <span>
-            <strong>{track.title}</strong>
+            <strong title={track.title}>{track.title}</strong>
             <small>{track.isrc}</small>
           </span>
         </div>
@@ -271,6 +272,7 @@ export function TrackListPage() {
             <div className="desktop-track-table">
               <Table<Track>
                 rowKey="id"
+                tableLayout="fixed"
                 columns={columns}
                 dataSource={data.items}
                 loading={tracksResource.refreshing}
